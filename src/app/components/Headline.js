@@ -74,7 +74,7 @@ const Headline = () => {
               Pangeran Biru Ingin Terus Ikuti Piala Menpora
             </h1>
           </div>
-          <div className="z-10 w-[375px] h-[px] inset-0 absolute bg-gradient-to-b from-transparent via-blue-headline/[.15] to-blue-headline">
+          <div className="z-10 w-[375px] h-[265px] inset-0 absolute bg-gradient-to-b from-transparent via-blue-headline/[.15] to-blue-headline">
             &nbsp;
           </div>
         </div>

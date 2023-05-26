@@ -11,6 +11,8 @@ module.exports = {
         'blue-primary': '#24326F',
         'black-secondary': '#272121',
         'blue-headline': '#070D59',
+        'light-blue-news': '#989494',
+        'blue-news': '#1B387B',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
