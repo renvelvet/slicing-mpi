@@ -17,6 +17,15 @@ import nor from './nor.svg'
 import gre from './gre.svg'
 import lforward from './lforward.svg'
 import rforward from './rforward.svg'
+import cameraIcon from './cameraIcon.svg'
+import iconVideo from './iconVideo.svg'
+import iconVideo42 from './iconVideo42.svg'
+import picHeadline00 from './picHeadline00.svg'
+import picHeadline02 from './picHeadline02.svg'
+import picHeadline12 from './picHeadline12.svg'
+import picHeadline20 from './picHeadline20.svg'
+import picHeadline21 from './picHeadline21.svg'
+import picHeadline22 from './picHeadline22.svg'
 
 export {
   forward,
@@ -38,4 +47,13 @@ export {
   gre,
   lforward,
   rforward,
+  cameraIcon,
+  iconVideo,
+  iconVideo42,
+  picHeadline00,
+  picHeadline02,
+  picHeadline12,
+  picHeadline20,
+  picHeadline21,
+  picHeadline22,
 }

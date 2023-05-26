@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { header, logo } from '../../public/images'
 import { redsearch } from '../../public/icons'
 import Schedule from './components/Schedule'
+import Headline from './components/Headline'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       </nav>
 
       <Schedule />
+      <Headline />
     </main>
   )
 }

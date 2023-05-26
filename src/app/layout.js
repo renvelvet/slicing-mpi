@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <header className="w-full h-10 fixed bg-[#F9F9F9] border-b border-b-blue-primary">
+        <header className="w-full h-10 fixed bg-[#F9F9F9] border-b border-b-blue-primary z-30">
           <div className="flex max-w-6xl h-full mx-auto flex-row justify-between items-center">
             <ul className="flex flex-row items-center gap-x-[13px] h-fit text-[#272121] text-sm font-medium leading-4">
               <li>RCTI+</li>
