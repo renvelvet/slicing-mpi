@@ -13,6 +13,10 @@ module.exports = {
         'blue-headline': '#070D59',
         'light-blue-news': '#989494',
         'blue-news': '#1B387B',
+        'red-primary': '#ED1C24',
+        'blue-radial': '#15366F',
+        'blue-radial-via': '#3150A3',
+        'blue-linear-gradient': '#103069',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -4,6 +4,7 @@ import { redsearch } from '../../public/icons'
 import Schedule from './components/Schedule'
 import Headline from './components/Headline'
 import UnknownSection from './components/UnknownSection'
+import News from './components/News'
 
 export default function Home() {
   return (
@@ -40,7 +41,7 @@ export default function Home() {
         <section className="grid grid-cols-3 mx-auto max-w-6xl">
           <div className="col-span-2">
             <UnknownSection />
-            <Image src={latestbig} alt="Latest big" width={810} height={500} />
+            <News />
           </div>
           <div>
             <Image
