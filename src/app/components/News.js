@@ -226,22 +226,21 @@ const News = () => {
               className="absolute top-[11px] left-[10px] z-20"
             />
             <Image src={mul1} alt="multimedia 1" width={273} height={197} />
-            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] right-[10px] bottom-[35px] z-20">
+            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] right-[10px] bottom-[35px]">
               IBL 2021: West Bandits Berhasil Balas Kekalahan atas NSH
             </h1>
-            <div className="flex flex-row items-center gap-x-[5px] absolute bottom-[10px] left-[10px] z-20">
+            <div className="flex flex-row items-center gap-x-[5px] absolute bottom-[10px] left-[10px]">
               <Image
                 src={calendarborder}
                 alt="calendar icon"
                 width={20}
                 height={20}
-                className="border-dashed border"
               />
               <h3 className="text-white text-xs leading-[14px] font-medium">
                 4 Menit lalu
               </h3>
             </div>
-            <div className="w-24 h-[198px] top-0 absolute left-0 bg-gradient-to-r from-blue-linear-gradient/100 to-blue-primary/0 z-10">
+            <div className="w-24 h-[198px] top-0 absolute left-0 bg-gradient-to-r from-blue-linear-gradient/100 to-blue-primary/0">
               &nbsp;
             </div>
           </div>
@@ -263,7 +262,6 @@ const News = () => {
                 alt="calendar icon"
                 width={20}
                 height={20}
-                className="border-dashed border"
               />
               <h3 className="text-white text-xs leading-[14px] font-medium">
                 4 Menit lalu
@@ -279,22 +277,21 @@ const News = () => {
               className="absolute top-[11px] left-[10px] z-20"
             />
             <Image src={mul3} alt="multimedia 1" width={194} height={197} />
-            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] break-words w-[266px] bottom-[35px] z-20 text-clip">
+            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] break-words w-[266px] bottom-[35px] text-clip">
               Daddies dan Minions Dibekali Jurus Ampuh Penakluk Yuta/Endo
             </h1>
-            <div className="flex flex-row items-center gap-x-[5px] absolute bottom-[10px] left-[10px] z-20">
+            <div className="flex flex-row items-center gap-x-[5px] absolute bottom-[10px] left-[10px]">
               <Image
                 src={calendarborder}
                 alt="calendar icon"
                 width={20}
                 height={20}
-                className="border-dashed border"
               />
               <h3 className="text-white text-xs leading-[14px] font-medium">
                 4 Menit lalu
               </h3>
             </div>
-            <div className="w-24 h-[198px] top-0 absolute left-0 bg-gradient-to-r from-blue-linear-gradient/100 to-blue-primary/0 z-10">
+            <div className="w-24 h-[198px] top-0 absolute right-0 bg-gradient-to-l from-blue-linear-gradient/100 to-blue-primary/10">
               &nbsp;
             </div>
           </div>

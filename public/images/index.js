@@ -1,5 +1,6 @@
 import header from './header.svg'
 import logo from './logo.svg'
+import logo2 from './logo2.svg'
 import latestbig from './latestbig.svg'
 import editorschoice from './editorschoice.svg'
 import banner from './banner.svg'
@@ -20,6 +21,7 @@ import mul3 from './mul3.svg'
 export {
   header,
   logo,
+  logo2,
   latestbig,
   editorschoice,
   banner,

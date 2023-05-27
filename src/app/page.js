@@ -5,6 +5,7 @@ import Schedule from './components/Schedule'
 import Headline from './components/Headline'
 import UnknownSection from './components/UnknownSection'
 import News from './components/News'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -53,6 +54,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </main>
   )
 }

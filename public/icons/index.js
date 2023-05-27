@@ -1,9 +1,14 @@
 import forward from './forward.svg'
 import facebook from './facebook.svg'
+import facebook42 from './facebook42.svg'
 import tiktok from './tiktok.svg'
+import tiktok42 from './tiktok42.svg'
 import youtube from './youtube.svg'
+import youtube42 from './youtube42.svg'
 import instagram from './instagram.svg'
+import instagram42 from './instagram42.svg'
 import twitter from './twitter.svg'
+import twitter42 from './twitter42.svg'
 import redsearch from './redsearch.svg'
 import belgia from './belgia.svg'
 import france from './france.svg'
@@ -33,10 +38,15 @@ import calendarborder from './calendarborder.svg'
 
 export {
   forward,
+  facebook42,
   facebook,
+  twitter42,
   twitter,
+  tiktok42,
   tiktok,
+  instagram42,
   instagram,
+  youtube42,
   youtube,
   redsearch,
   belgia,
