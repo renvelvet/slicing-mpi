@@ -6,10 +6,9 @@ import {
   categoriesIcon,
   chevrondown,
   denmark,
-  findland,
   finland,
+  italy,
   russia,
-  swFinlandland,
   switzerland,
   turkey,
   wales,
@@ -256,8 +255,8 @@ const SideContent = () => {
           <div className="flex flex-row items-center justify-between">
             <div className="flex flex-row items-center gap-x-3">
               <h1 className="font-bold text-sm leading-4">2</h1>
-              <Image src={finland} alt="finland" width={20} height={20} />
-              <h1 className="font-bold text-sm leading-4">Finland</h1>
+              <Image src={italy} alt="Italy" width={20} height={20} />
+              <h1 className="font-bold text-sm leading-4">Italy</h1>
             </div>
             <div className="flex flex-row items-center justify-evenly w-[91px]">
               <h1 className="font-bold text-sm leading-4">6</h1>
@@ -329,7 +328,7 @@ const SideContent = () => {
           <div className="flex flex-row items-center justify-between">
             <div className="flex flex-row items-center gap-x-3">
               <h1 className="font-bold text-sm leading-4">2</h1>
-              <Image src={findland} alt="finland" width={20} height={20} />
+              <Image src={finland} alt="finland" width={20} height={20} />
               <h1 className="font-bold text-sm leading-4">Finland</h1>
             </div>
             <div className="flex flex-row items-center justify-evenly w-[91px]">

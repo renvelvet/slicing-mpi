@@ -40,11 +40,13 @@ import chevrondown from './chevrondown.svg'
 import russia from './russia.svg'
 import denmark from './denmark.svg'
 import switzerland from './switzerland.svg'
-import findland from './finland.svg'
+import finland from './finland.svg'
 import turkey from './turkey.svg'
 import italy from './italy.svg'
 import belgium from './belgium.svg'
 import wales from './wales.svg'
+import search from './search.svg'
+import menu from './menu.svg'
 
 export {
   forward,
@@ -88,10 +90,12 @@ export {
   chevrondown,
   turkey,
   denmark,
-  findland,
+  finland,
   italy,
   russia,
   belgium,
   wales,
   switzerland,
+  menu,
+  search,
 }
