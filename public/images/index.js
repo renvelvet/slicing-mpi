@@ -17,6 +17,10 @@ import mp4 from './mp4.svg'
 import mul1 from './mul1.svg'
 import mul2 from './mul2.svg'
 import mul3 from './mul3.svg'
+import ec1 from './ec1.svg'
+import ec2 from './ec2.svg'
+import ec3 from './ec3.svg'
+import ec4 from './ec4.svg'
 
 export {
   header,
@@ -38,4 +42,8 @@ export {
   mul1,
   mul2,
   mul3,
+  ec1,
+  ec2,
+  ec3,
+  ec4,
 }

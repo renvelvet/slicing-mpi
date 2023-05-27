@@ -1,11 +1,12 @@
 import Image from 'next/image'
-import { editorschoice, header, latestbig, logo } from '../../public/images'
+import { header, logo } from '../../public/images'
 import { redsearch } from '../../public/icons'
 import Schedule from './components/Schedule'
 import Headline from './components/Headline'
 import UnknownSection from './components/UnknownSection'
 import News from './components/News'
 import Footer from './components/Footer'
+import SideContent from './components/SideContent'
 
 export default function Home() {
   return (
@@ -38,19 +39,14 @@ export default function Home() {
 
       <Schedule />
       <Headline />
-      <div className="pt-[35px]">
-        <section className="grid grid-cols-3 mx-auto max-w-6xl">
+      <div className="pt-[35px] pb-[25px]">
+        <section className="grid grid-cols-3 mx-auto max-w-6xl gap-x-[27px]">
           <div className="col-span-2">
             <UnknownSection />
             <News />
           </div>
           <div>
-            <Image
-              src={editorschoice}
-              alt="editor choice"
-              width={300}
-              height={250}
-            />
+            <SideContent />
           </div>
         </section>
       </div>

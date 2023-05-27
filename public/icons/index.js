@@ -35,6 +35,16 @@ import picHeadline21 from './picHeadline21.svg'
 import picHeadline22 from './picHeadline22.svg'
 import calendar from './calendar.svg'
 import calendarborder from './calendarborder.svg'
+import categoriesIcon from './categoriesIcon.svg'
+import chevrondown from './chevrondown.svg'
+import russia from './russia.svg'
+import denmark from './denmark.svg'
+import switzerland from './switzerland.svg'
+import findland from './finland.svg'
+import turkey from './turkey.svg'
+import italy from './italy.svg'
+import belgium from './belgium.svg'
+import wales from './wales.svg'
 
 export {
   forward,
@@ -74,4 +84,14 @@ export {
   picHeadline22,
   calendar,
   calendarborder,
+  categoriesIcon,
+  chevrondown,
+  turkey,
+  denmark,
+  findland,
+  italy,
+  russia,
+  belgium,
+  wales,
+  switzerland,
 }

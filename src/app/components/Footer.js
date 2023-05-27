@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <footer>
-      <div className="flex flex-row justify-between bg-blue-primary mt-[25px] pb-10 pl-[51px] pr-[140px]">
+      <div className="flex flex-row justify-between bg-blue-primary pb-10 pl-[51px] pr-[140px]">
         <div className="flex flex-col mt-[60px] w-1/2">
           <Image src={logo2} alt="logo" width={364} height={55} />
           <h3 className="text-xl leading-8 text-[#CCCCCC] mt-[49px]">
