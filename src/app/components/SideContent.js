@@ -33,7 +33,6 @@ const SideContent = () => {
             alt="editor choice"
             height={250}
             width={300}
-            className="object-cover w-full h-[250px]"
           />
           <div className="left-[15px] right-[15px] bottom-[15px] absolute">
             <div className="uppercase text-[15px] leading-[18px] text-white bg-red-primary py-[5px] px-[10px] w-fit mb-[15px]">
