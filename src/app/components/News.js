@@ -56,7 +56,13 @@ const News = () => {
       <hr className="h-[1px] bg-[#f2f2f2]" />
 
       <div className="relative">
-        <Image src={latestbig} alt="Latest big" width={810} height={500} />
+        <Image
+          src={latestbig}
+          alt="Latest big"
+          width={810}
+          height={500}
+          className="w-full h-auto"
+        />
         <div className="flex flex-col absolute left-[30px] right-[30px] bottom-[26px] z-20 gap-y-[10px]">
           <div className="flex flex-row items-center justify-start w-full gap-x-[15px]">
             <div className="uppercase text-[15px] leading-[18px] text-white bg-[#ED1C24] py-[5px] px-[10px]">

@@ -55,7 +55,7 @@ const Headline = () => {
             src={picHeadline02}
             alt="headline 1"
             width={375}
-            height={265}
+            height={262}
           />
           <div className="flex flex-col absolute left-[15px] right-[15px] bottom-0 z-20 gap-y-[10px]">
             <div className="flex flex-row items-center justify-start w-full gap-x-[15px]">
