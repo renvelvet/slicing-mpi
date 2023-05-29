@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 
 const KanalMenu = () => {
   const [scrolled, setScrolled] = useState(false)
+  const [inputSearch, setinputSearch] = useState('')
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,8 +37,23 @@ const KanalMenu = () => {
           <li className="uppercase">Multimedia</li>
           <li className="uppercase">Index</li>
         </ul>
-        <div>
-          <Image src={redsearch} alt="search icon" width={30} height={30} />
+        <div className="flex flex-row justify-end group relative w-[30px] h-[30px] hover:w-52">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Cari Berita"
+            value={inputSearch}
+            onChange={(e) => setinputSearch(e.target.value)}
+            className="text-black duration-1000 placeholder:text-red-primary outline-none float-right group-hover:pr-10 group-hover:pl-2 px-0 border-2 border-red-primary rounded-md ease-in-out w-0 group-hover:w-full focus:flex"
+          />
+          <Image
+            src={redsearch}
+            alt="search icon"
+            width={30}
+            height={30}
+            className="cursor-pointer absolute top-0 right-0"
+          />
         </div>
       </div>
     </nav>
