@@ -10,7 +10,7 @@ const KanalMenu = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY
-      setScrolled(scrollTop > 200)
+      setScrolled(scrollTop > 250)
     }
     window.addEventListener('scroll', handleScroll)
 

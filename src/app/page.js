@@ -9,7 +9,7 @@ import KanalMenu from './components/KanalMenu'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col pt-10">
+    <main className="flex min-h-screen flex-col">
       <Banner />
       <KanalMenu />
       <Schedule />
