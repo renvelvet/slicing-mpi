@@ -94,4 +94,13 @@ const schedules = [
   },
 ]
 
-export { schedules }
+const jadwalTerbaru = [
+  'Liga Inggris Premiere League',
+  'Liga Italia Serie A',
+  'Liga Spanyol Laliga Santander',
+  'Liga Champions Eropa',
+  'Liga 1 Indonesia',
+  'Liga 2 Indonesia',
+]
+
+export { schedules, jadwalTerbaru }
