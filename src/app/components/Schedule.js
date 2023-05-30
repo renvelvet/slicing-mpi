@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { forward } from '../../../public/icons'
 import ScheduleSlider from './ScheduleSlider'
 import { Menu, Transition } from '@headlessui/react'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { Fragment } from 'react'
 import { jadwalTerbaru } from '../constants'
 
 function Schedule() {

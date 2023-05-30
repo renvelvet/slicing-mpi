@@ -219,11 +219,14 @@ const News = () => {
       <hr className="h-[1px] bg-[#f2f2f2]" />
 
       <div className="bg-gradient-radial from-blue-radial via-blue-radial-via to-blue-radial pb-6 pt-[15px] px-5">
-        <h2 className="font-bold text-lg leading-[21px] text-white mb-[10px]">
+        <h2 className="font-bold text-lg leading-[21px] text-white mb-5 border-b-4 border-b-[#D92129] pb-[10px]">
           MULTIMEDIA
         </h2>
-        <div className="flex flex-row gap-x-5 border-t-4 border-t-[#D92129] pt-5 overflow-hidden">
-          <div className="flex flex-col gap-y-[10px] relative">
+        <div className="relative flex flex-row gap-x-5 w-full">
+          <div className="z-20 w-24 h-[198px] top-0 absolute left-0 bg-gradient-to-r from-blue-linear-gradient/100 to-blue-primary/0">
+            &nbsp;
+          </div>
+          <div className="flex flex-col w-[273px] gap-y-[10px] relative">
             <Image
               src={cameraIcon32}
               alt="camera icon"
@@ -246,11 +249,8 @@ const News = () => {
                 4 Menit lalu
               </h3>
             </div>
-            <div className="w-24 h-[198px] top-0 absolute left-0 bg-gradient-to-r from-blue-linear-gradient/100 to-blue-primary/0">
-              &nbsp;
-            </div>
           </div>
-          <div className="flex flex-col gap-y-[10px] relative">
+          <div className="flex flex-col w-[273px] gap-y-[10px] relative">
             <Image
               src={iconVideo32}
               alt="camera icon"
@@ -274,7 +274,7 @@ const News = () => {
               </h3>
             </div>
           </div>
-          <div className="flex flex-col gap-y-[10px] relative">
+          <div className="flex flex-col w-[273px] gap-y-[10px] relative">
             <Image
               src={cameraIcon32}
               alt="camera icon"
@@ -282,8 +282,8 @@ const News = () => {
               height={32}
               className="absolute top-[11px] left-[10px] z-20"
             />
-            <Image src={mul3} alt="multimedia 1" width={194} height={197} />
-            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] break-words w-[266px] bottom-[35px] text-clip">
+            <Image src={mul2} alt="multimedia 3" width={273} height={197} />
+            <h1 className="font-bold text-white leading-[19px] absolute left-[10px] bottom-[35px]">
               Daddies dan Minions Dibekali Jurus Ampuh Penakluk Yuta/Endo
             </h1>
             <div className="flex flex-row items-center gap-x-[5px] absolute bottom-[10px] left-[10px]">
@@ -297,9 +297,10 @@ const News = () => {
                 4 Menit lalu
               </h3>
             </div>
-            <div className="w-24 h-[198px] top-0 absolute right-0 bg-gradient-to-l from-blue-linear-gradient/100 to-blue-primary/10">
-              &nbsp;
-            </div>
+          </div>
+
+          <div className="w-24 h-[198px] top-0 absolute right-0 bg-gradient-to-l from-blue-linear-gradient/100 to-blue-primary/10">
+            &nbsp;
           </div>
         </div>
       </div>

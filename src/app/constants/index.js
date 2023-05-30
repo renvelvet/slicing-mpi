@@ -103,4 +103,13 @@ const jadwalTerbaru = [
   'Liga 2 Indonesia',
 ]
 
-export { schedules, jadwalTerbaru }
+const statistics = [
+  'Liga Liga Eropa',
+  'Liga Liga Eropa',
+  'Liga Liga Eropa',
+  'Liga Liga Eropa',
+  'Liga Liga Eropa',
+  'Liga Liga Eropa',
+]
+
+export { schedules, jadwalTerbaru, statistics }

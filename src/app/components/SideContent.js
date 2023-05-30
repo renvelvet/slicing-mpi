@@ -1,4 +1,9 @@
+'use client'
 import Image from 'next/image'
+import { Menu, Transition } from '@headlessui/react'
+import { Fragment } from 'react'
+import { statistics } from '../constants'
+
 import { ec1, ec2, ec3, ec4, editorschoice } from '../../../public/images'
 import {
   belgium,
@@ -211,18 +216,53 @@ const SideContent = () => {
 
       {/* statistics */}
       <div className="relative">
-        <h1 className="font-bold text-xl leading-[23px] text-[#272121]">
-          STATISTIK
-        </h1>
+        <div className="flex flex-row justify-between">
+          <h1 className="font-bold text-xl leading-[23px] text-[#272121]">
+            STATISTIK
+          </h1>
+          <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button className="rounded-md p-2 border border-[#443737] shadow-inner shadow-white flex flex-row w-fit items-center">
+                <h1 className="text-sm leading-4 text-[#131313] font-medium">
+                  EURO 2021
+                </h1>
+                <Image
+                  src={chevrondown}
+                  alt="chevron down"
+                  width={16}
+                  height={16}
+                />
+              </Menu.Button>
+            </div>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className="absolute border left-0 z-30 w-28 bg-white focus:outline-none">
+                {statistics.map((item, index) => (
+                  <Menu.Item key={index} className="w-full p-2">
+                    {({ active }) => (
+                      <button
+                        className={`${
+                          active ? 'bg-blue-500 text-white' : 'text-black'
+                        } text-start text-xs`}
+                      >
+                        {item}
+                      </button>
+                    )}
+                  </Menu.Item>
+                ))}
+              </Menu.Items>
+            </Transition>
+          </Menu>
+        </div>
 
         <hr className="h-1 bg-red-primary my-[10px]" />
-
-        <div className="rounded-md p-2 border border-[#443737] shadow-inner shadow-white flex flex-row w-fit items-center absolute -top-1 right-0">
-          <h1 className="text-sm leading-4 text-[#131313] font-medium">
-            EURO 2021
-          </h1>
-          <Image src={chevrondown} alt="chevron down" width={16} height={16} />
-        </div>
 
         {/* group A */}
         <h1 className="text-sm font-bold text-black leading-4 mt-[19px]">
